@@ -1,0 +1,183 @@
+.wrapper {
+	height: 80vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	overflow: hidden;
+	border: 0px solid blue;
+	background-color: none;
+	color: #444;
+}
+
+.ball {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 20px;
+	bottom: 0;
+	left: calc(50% - 600px);
+	background-color: #751aff;
+	border-radius: 50%;
+}
+
+
+body {
+    background-color: #CbEE20;
+    align-content: center;
+    text-align: center;
+    padding-top: 2px;
+    min-width: 55px;
+    
+  
+}
+
+
+.btn_one {
+    position: absolute;
+    margin: 10em auto 0 auto;
+    left: 0;
+    right: 0;
+    width: 30%;
+    background-color: #CbEE20;
+    outline-color: #000000;
+    width: 122px;
+    height: 32px;
+    color: #000000;
+    outline: 2;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: 0.3s;
+    transition-property: all;
+    border-style: solid;
+    border-radius: 95px;
+    border-color: #000000;
+        
+}
+
+.btn_one:hover{
+    background-color: #30C6EE;
+    outline-color: #000000;
+    border-radius: 100px;
+    width: 92px;
+    height: 32px;
+    transition: 0.3s;
+    transition-property: all;
+}
+
+#mainDiv{
+   position: absolute;
+   margin: 10em auto 0 auto;
+   left: 0;
+   right: 0;
+   
+   transition: 1s;
+   transition-property: all;
+}
+
+.svgDiv {
+    overflow: inherit;
+    height: 2px;
+    width: 0px;
+    background-color: #000000;
+    align-self: center;
+}
+
+.logo_svg {
+   position: absolute;
+   left: 0;
+   right: 0;
+   fill: #000000;
+   stroke: #666666;
+   stroke-width: 0;
+   opacity: 0;
+   transition: 0.9s;
+   transition-property: all;
+}
+
+#logo_svg:hover {
+   cursor: pointer;
+   fill: #666666;
+   stroke: #666666;
+   stroke-width: 14;
+   width: 100%;
+   transition: 0.5s;
+   transition-property: all;
+    
+    
+
+}
+
+
+#btnTwo {
+    position: inline;
+    margin: 1em auto 0 auto;
+    left: 20%;
+    right: 20%;
+    top: 0;
+   background-color: #CbEE20;
+    outline-color: #000000;
+    width: 122px;
+    height: 32px;
+    color: #000000;
+    outline: 2;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: 0.3s;
+    transition-property: all;
+    border-style: solid;
+    border-radius: 95px;
+    border-color: #000000;
+}
+
+#btnTwo:hover {
+    background-color: #30C6EE;
+    outline-color: #000000;
+    border-radius: 100px;
+    width: 92px;
+    height: 32px;
+    transition: 0.3s;
+    transition-property: all;
+}
+
+#contentOne  {
+    position: absolute;
+    margin: 0 auto 0 auto;
+    left: 0;
+    right: 0;
+    top: 30;
+    max-width: 70%;
+    text-align: center;
+    color: #000000;
+    opacity: 0;
+   
+    font-family: sans-serif;
+    overflow: hidden;
+    transition: 0.6s;
+    transition-property: all;
+}
+
+.img1 {
+    left: 20%;
+    right: 20%;
+    top: 0;
+   
+    max-width: 40%;
+    padding-top: 0px;
+    float: none;
+    transition: 1.6s;
+    transition-property: all;
+}
+
+p, h1 {
+    color: #666666;
+    font-family: sans-serif;
+}
+
+.headline_one {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 18px;
+    opacity: 0;
+    margin-top: -103px;
+}
